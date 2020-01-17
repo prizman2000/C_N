@@ -5,14 +5,16 @@ using namespace std;
 
 int main() {
 
-    C_N A, B;
+    C_N A{4,3};
+    C_N B{1,5};
 
-    cout << A + B << endl;
+    cout <<"Сумма:  "<< A + B << endl;
 
-    cout << A - B << endl;
+    cout <<"Вычитание:  "<< A - B << endl;
 
-    cout << A * B << endl;
+    cout <<"Умножение:  "<< A * B << endl;
 
-    cout << A / B << endl;
+    cout <<"Деление:  "<< A / B << endl;
+
     return 0;
 }

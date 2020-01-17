@@ -4,8 +4,8 @@
 #include <iostream>
 
 struct C_N {
-    float x = 1;
-    float y = 2; //i
+    float x = 0;
+    float y = 0; //i
 };
 
 C_N operator+(C_N A, C_N B);
